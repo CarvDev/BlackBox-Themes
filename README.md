@@ -1,12 +1,12 @@
 # Black Box Theme(s)
 When I begin using Black Box Terminal I noticed that the only way to add new themes was manually downloading a Tilix theme and pasting it in the Black Box schemes folder, so I thought about creating a solution for that, developing an easier way of installing the themes. Hope you like it! 
 
-Note: This is a fork of [Tiilix-Themes](https://github.com/storm119/Tilix-Themes) by [storm119](https://github.com/storm119), most of the code was made by him, I only adapted it to work with Black Box Terminal.
+Note: This is a fork of the project [Tiilix-Themes](https://github.com/storm119/Tilix-Themes), made by [storm119](https://github.com/storm119), I only adapted it to work with Black Box Terminal.
 
 ### How to use:
 * First, you need to install [Black Box](https://gitlab.gnome.org/raggesilver/blackbox) to use the themes available here. Other terminal wont work...
 
-#### If you installed with Flatpak:
+#### If you installed Black Box with Flatpak:
 * Tap the ["Themes-flatpak.md"](Themes-flatpak.md) and pick the one you like and copy/paste the commands below the image preview to your terminal, for example:
 
 ```
@@ -14,13 +14,16 @@ wget -qO $HOME"/.var/app/com.raggesilver.BlackBox/data/blackbox/schemes/terminix
 ```
 * OR manually download the *.json file from a theme you like from the Themes folder and copy the theme to `~/.var/app/com.raggesilver.BlackBox/data/blackbox/schemes/`
 
-* And finally apply via Black Box
+* And finally restart Black Box and apply the new theme:
+
 
 ```
 Preferences > Terminal > Theme
 ```
 
-#### If you installed a native package:
+* Preferences > Terminal > Theme
+
+#### If you installed a native Black Box package:
 * Tap the ["Themes-native.md"](Themes-native.md) and pick the one you like and copy/paste the commands below the image preview to your terminal, for example:
 
 ```
@@ -28,7 +31,7 @@ wget -qO $HOME"/.local/share/blackbox/schemes/terminix-dark.json" https://git.io
 ```
 * OR manually download the *.json file from a theme you like from the Themes folder and copy the theme to `~/.local/share/blackbox/schemes/`
 
-* And finally apply via Black Box
+* And finally restart Black Box and apply the new theme:
 
 ```
 Preferences > Terminal > Theme
